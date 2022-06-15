@@ -18,10 +18,10 @@ ul{
     text-decoration: none;
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .section1{
@@ -29,11 +29,12 @@ ul{
     display: flex;
     gap: 300px;
     justify-content: center;
+    padding: 0 900px;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 50px;
-}
 
+}
 .hero{
     width: 400px;
     font-size: 48px;
@@ -41,19 +42,31 @@ ul{
     color:#F9FAF8;
 }
 
+.button-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
 .hero-secondary{
     width: 400px;
     font-size: 18px;
     color: #F9FAF8;
 }
 
-button{
+.button{
     background-color: #3882F6;
     color: white;
     border: none;
-    border-radius: 3px;
-    width: 80px;
-    height: 25px;
+    font-size: 18px;
+    border-radius: 6px;
+    width: 120px;
+    height: 35px;
+}
+
+.profile{
+    border-radius: 150px;
+    border-style: solid;
+    border-color: white;
 }
 
 .random-info-text{
@@ -84,7 +97,7 @@ button{
 }
 
 .content-box{
-    width: 200px;
+    width: 250px;
     height: auto;
     text-align: center;
 }
@@ -105,6 +118,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 700px;
 }
 
 .author{
@@ -136,9 +150,10 @@ em{
     margin: 100px 0 100px 0;
 }
 
-button{
+.button2{
     border-color: white;
     border-style: solid;
+    color: white;
     background-color: #3882F6;
     width: 150px;
     height: 40px;
@@ -151,8 +166,10 @@ button{
 .section4-content-within{
     display: flex;
     align-items: center;
+    margin: 0;
 
 }
+
 
 .footer{
     background-color: #1f2937;
@@ -161,7 +178,7 @@ button{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100px;
+    height: 90px;
     align-content: center;
     justify-content: center;
     font-size: 18px;
