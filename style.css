@@ -21,7 +21,7 @@ ul{
     gap: 20px;
     align-items: center;
     color: #F9FAF8;
-
+    font-size: 24px;
 }
 
 .section1{
@@ -54,7 +54,10 @@ button{
     border-radius: 3px;
     width: 80px;
     height: 25px;
+}
 
+.random-info-text{
+    margin-bottom: 40px;
 }
 
 .section2{
@@ -69,11 +72,11 @@ button{
 .squares{
     display: flex;
     justify-content: center;
-    gap: 55px;
+    gap: 150px;
 }
 .image{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 10px;
     border-color: #3882F6;
     border-style: solid;
@@ -81,7 +84,7 @@ button{
 }
 
 .content-box{
-    width: 150px;
+    width: 200px;
     height: auto;
     text-align: center;
 }
@@ -96,7 +99,6 @@ button{
     color: #1F3927;
     padding: 150px 1020px 75px 1020px;
     margin-bottom: 0;
-
 }
 
 .section3-content{
@@ -132,8 +134,6 @@ em{
     background-color: #3882F6;
     color: white;
     margin: 100px 0 100px 0;
-
-    
 }
 
 button{
